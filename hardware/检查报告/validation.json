@@ -1,0 +1,12 @@
+{
+  "components": 23,
+  "pads_checked": 80,
+  "connected_schematic_pins_checked": 39,
+  "tracks_checked": 325,
+  "vias": 1,
+  "native_to_kicad_geometry": "PASS",
+  "schematic_pin_to_pcb_net": "PASS",
+  "confirmed_module_and_mount_geometry": "UNCHANGED",
+  "native_ERC_DRC": "NOT RUN - requires EasyEDA Pro",
+  "bench_validation": "NOT RUN"
+}

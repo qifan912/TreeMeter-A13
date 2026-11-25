@@ -1,0 +1,8 @@
+.title KiCad schematic
+.tran 50n 60u
+C3 /LASER_3V3 0 4.7u
+V1 Net-_R1-Pad2_ 0 DC 3.3 
+R1 /LASER_3V3 Net-_R1-Pad2_ 0.6
+C4 /LASER_3V3 0 100n
+I1 /LASER_3V3 0 PULSE( 20m 100m 10u 100n 100n 20u 100u ) 
+.end

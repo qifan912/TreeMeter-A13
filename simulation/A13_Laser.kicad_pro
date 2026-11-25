@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "filename": "A13_Laser.kicad_pro",
+    "version": 1
+  },
+  "schematic": {
+    "ngspice": {
+      "workbook_filename": "A13_Laser.wbk"
+    }
+  }
+}

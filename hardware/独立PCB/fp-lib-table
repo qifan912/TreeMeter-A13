@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "TreeMeterBoard")(type "KiCad")(uri "${KIPRJMOD}/TreeMeterBoard.pretty")(options "")(descr "A12 actual hand-solder footprints")))

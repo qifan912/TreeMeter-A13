@@ -1,0 +1,902 @@
+(kicad_sch (version 20250114) (generator "eeschema") (uuid "1ccdc167-0280-4aa4-ad64-316008c1f067") (paper "A4") (lib_symbols 	(symbol "Simulation_SPICE:VDC"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.0254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "V"
+			(at 2.54 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1"
+			(at 2.54 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Voltage source, DC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "ki_keywords" "simulation"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "VDC_0_0"
+			(polyline
+				(pts
+					(xy -1.27 0.254) (xy 1.27 0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 -0.254) (xy -1.27 -0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 -0.254) (xy -0.254 -0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -0.254) (xy 0.762 -0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "+"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "VDC_0_1"
+			(circle
+				(center 0 0)
+				(radius 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "VDC_1_1"
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Simulation_SPICE:IPULSE"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.0254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "I"
+			(at 2.54 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IPULSE"
+			(at 2.54 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Current source, pulse"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "I"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Sim.Type" "PULSE"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "y1=0 y2=1 td=2n tr=2n tf=2n tw=50n per=100n"
+			(at 2.54 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "ki_keywords" "simulation"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "IPULSE_0_0"
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy -1.397 -0.762) (xy -1.143 0.762) (xy -0.127 0.762) (xy 0.127 -0.762) (xy 1.143 -0.762)
+					(xy 1.397 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "IPULSE_0_1"
+			(polyline
+				(pts
+					(xy -0.254 1.778) (xy 0 1.27) (xy 0.254 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "IPULSE_1_1"
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Device:R"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Device:C"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 0.635 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.9652 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "cap capacitor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "C_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_0_1"
+			(polyline
+				(pts
+					(xy -2.032 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "C_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Simulation_SPICE:0"
+		(power global)
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "#GND"
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 0 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "simulation"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "0_0_1"
+			(polyline
+				(pts
+					(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "0_1_1"
+			(pin power_in line
+				(at 0 0 0)
+				(length 0)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	))(symbol (lib_id "Simulation_SPICE:VDC") (at 50.8 91.44 0) (unit 1) (in_bom yes) (on_board yes) (uuid "320c67eb-76d2-4611-81c8-8ac2cd4e761f")
+(property "Reference" "V1" (at 55.8 89.44 0) (effects (font (size 1.4 1.4)) (justify left) ))
+(property "Value" "3.3" (at 55.8 92.84 0) (effects (font (size 1.4 1.4)) (justify left) ))
+(instances (project "A13_Laser" (path "/1ccdc167-0280-4aa4-ad64-316008c1f067" (reference "V1") (unit 1)))))
+(symbol (lib_id "Device:R") (at 50.8 68.58 0) (unit 1) (in_bom yes) (on_board yes) (uuid "e2978178-d1c4-4c25-9e70-f4a3e18ec25e")
+(property "Reference" "R1" (at 55.8 66.58 0) (effects (font (size 1.4 1.4)) (justify left) ))
+(property "Value" "0.6" (at 55.8 69.98 0) (effects (font (size 1.4 1.4)) (justify left) ))
+(instances (project "A13_Laser" (path "/1ccdc167-0280-4aa4-ad64-316008c1f067" (reference "R1") (unit 1)))))
+(symbol (lib_id "Device:C") (at 88.9 83.82 0) (unit 1) (in_bom yes) (on_board yes) (uuid "61a7aff8-439c-4d39-8c57-8a7741562c9d")
+(property "Reference" "C3" (at 93.9 81.82 0) (effects (font (size 1.4 1.4)) (justify left) ))
+(property "Value" "4.7u" (at 93.9 85.22 0) (effects (font (size 1.4 1.4)) (justify left) ))
+(instances (project "A13_Laser" (path "/1ccdc167-0280-4aa4-ad64-316008c1f067" (reference "C3") (unit 1)))))
+(symbol (lib_id "Device:C") (at 119.38 83.82 0) (unit 1) (in_bom yes) (on_board yes) (uuid "15b0b79b-043e-4d31-a55a-50cd6e9ba216")
+(property "Reference" "C4" (at 124.38 81.82 0) (effects (font (size 1.4 1.4)) (justify left) ))
+(property "Value" "100n" (at 124.38 85.22 0) (effects (font (size 1.4 1.4)) (justify left) ))
+(instances (project "A13_Laser" (path "/1ccdc167-0280-4aa4-ad64-316008c1f067" (reference "C4") (unit 1)))))
+(symbol (lib_id "Simulation_SPICE:IPULSE") (at 154.94 83.82 0) (unit 1) (in_bom yes) (on_board yes) (uuid "2f2304aa-71be-4357-97a6-b75d0d884558")
+(property "Reference" "I1" (at 159.94 81.82 0) (effects (font (size 1.4 1.4)) (justify left) ))
+(property "Value" "Pulsed load" (at 159.94 85.22 0) (effects (font (size 1.4 1.4)) (justify left) ))
+(property "Sim.Device" "I" (at 159.94 88.61999999999999 0) (effects (font (size 1.4 1.4)) (justify left) (hide yes)))
+(property "Sim.Type" "PULSE" (at 159.94 92.02 0) (effects (font (size 1.4 1.4)) (justify left) (hide yes)))
+(property "Sim.Pins" "1=+ 2=-" (at 159.94 95.41999999999999 0) (effects (font (size 1.4 1.4)) (justify left) (hide yes)))
+(property "Sim.Params" "y1=20m y2=100m td=10u tr=100n tf=100n tw=20u per=100u" (at 159.94 98.82 0) (effects (font (size 1.4 1.4)) (justify left) (hide yes)))
+(instances (project "A13_Laser" (path "/1ccdc167-0280-4aa4-ad64-316008c1f067" (reference "I1") (unit 1)))))
+(symbol (lib_id "Simulation_SPICE:0") (at 50.8 114.3 0) (unit 1) (in_bom yes) (on_board yes) (uuid "93836b81-84c3-4507-ad37-3e1bebb3517f")
+(property "Reference" "#PWR01" (at 55.8 112.3 0) (effects (font (size 1.4 1.4)) (justify left) (hide yes)))
+(property "Value" "0" (at 55.8 115.7 0) (effects (font (size 1.4 1.4)) (justify left) ))
+(instances (project "A13_Laser" (path "/1ccdc167-0280-4aa4-ad64-316008c1f067" (reference "#PWR01") (unit 1)))))
+(wire (pts (xy 50.8 57.15) (xy 88.9 57.15)) (stroke (width 0) (type default)) (uuid "c3b0a0bb-1aaa-4d89-b522-89db021610f8"))
+(wire (pts (xy 50.8 106.68) (xy 88.9 106.68)) (stroke (width 0) (type default)) (uuid "4f181985-50aa-431e-9213-2dc9601d9106"))
+(wire (pts (xy 88.9 57.15) (xy 119.38 57.15)) (stroke (width 0) (type default)) (uuid "ffe3cc23-7821-49d6-b73c-9c5680637aae"))
+(wire (pts (xy 88.9 106.68) (xy 119.38 106.68)) (stroke (width 0) (type default)) (uuid "aefe3992-f8dc-4a70-8a0d-799ccde1786f"))
+(wire (pts (xy 119.38 57.15) (xy 154.94 57.15)) (stroke (width 0) (type default)) (uuid "85072a71-8a38-4e89-bb2b-ff1cd7884ab2"))
+(wire (pts (xy 119.38 106.68) (xy 154.94 106.68)) (stroke (width 0) (type default)) (uuid "78721846-2394-402f-ad11-d4c8973bbb1a"))
+(wire (pts (xy 50.8 57.15) (xy 50.8 64.77)) (stroke (width 0) (type default)) (uuid "779cb0b9-623b-45ba-98ad-20f8d9f6211b"))
+(wire (pts (xy 50.8 72.39) (xy 50.8 86.36)) (stroke (width 0) (type default)) (uuid "128c492f-9abd-46f4-9d52-3848b6001f7c"))
+(wire (pts (xy 50.8 96.52) (xy 50.8 106.68)) (stroke (width 0) (type default)) (uuid "7152c9d1-2760-4ddb-875e-0de80d5b96da"))
+(wire (pts (xy 50.8 106.68) (xy 50.8 114.3)) (stroke (width 0) (type default)) (uuid "36fd8483-a2bf-4260-9b0b-c5ada479c64c"))
+(junction (at 50.8 106.68) (diameter 0) (color 0 0 0 0) (uuid "2623a1e0-29d0-4869-a1a6-587c551eefd3"))
+(wire (pts (xy 88.9 57.15) (xy 88.9 80.01)) (stroke (width 0) (type default)) (uuid "c2568590-7943-42cf-b3e8-fae882d74d5d"))
+(wire (pts (xy 88.9 87.63) (xy 88.9 106.68)) (stroke (width 0) (type default)) (uuid "e9fa1a2f-25d9-49ac-b8a4-4add4603eea6"))
+(junction (at 88.9 57.15) (diameter 0) (color 0 0 0 0) (uuid "610974e2-dd39-4183-8693-3f939fd189be"))
+(junction (at 88.9 106.68) (diameter 0) (color 0 0 0 0) (uuid "17aac406-b68f-468a-8c04-f70a471f834e"))
+(wire (pts (xy 119.38 57.15) (xy 119.38 80.01)) (stroke (width 0) (type default)) (uuid "06e19814-00a9-4552-a379-d0db90e60558"))
+(wire (pts (xy 119.38 87.63) (xy 119.38 106.68)) (stroke (width 0) (type default)) (uuid "21dd9404-414e-4bf4-b867-44fd5e78b39a"))
+(junction (at 119.38 57.15) (diameter 0) (color 0 0 0 0) (uuid "fd517ccd-7b47-478d-89ee-15d2d447f488"))
+(junction (at 119.38 106.68) (diameter 0) (color 0 0 0 0) (uuid "5c50204b-4a1f-4b3f-bcd3-d3b34d559538"))
+(wire (pts (xy 154.94 57.15) (xy 154.94 78.74)) (stroke (width 0) (type default)) (uuid "1f85cc74-29a3-4470-984b-ea1d10d8c3b4"))
+(wire (pts (xy 154.94 88.9) (xy 154.94 106.68)) (stroke (width 0) (type default)) (uuid "4a463c75-05a3-4bfb-b06a-1cfeeee6dad1"))
+(label "LASER_3V3" (at 88.9 57.15 0) (effects (font (size 1.4 1.4)) (justify left bottom)) (uuid "d27d7b73-597d-418b-a97a-2771c1eda78a"))
+(text "A13   /   激光供电支路瞬态响应" (at 44 36 0) (effects (font (size 3.3 3.3)) (justify left bottom)) (uuid "052b6896-dbc2-4072-94f1-9ca07d4345b7"))
+(text "J6 外部供电  →  C3、C4 本地去耦  →  J5 激光负载" (at 44 44 0) (effects (font (size 1.8 1.8)) (justify left bottom)) (uuid "10127e31-86cb-4632-8537-ec05784999b3"))
+(text "R1 为外部电源与线束的假设等效电阻，I1 为测试激励。" (at 44 126 0) (effects (font (size 1.8 1.8)) (justify left bottom)) (uuid "4e655f0e-819a-44fa-8ad3-e84412ed37c5"))
+(text "负载由 20 mA 升至 100 mA，持续 20 μs，再恢复。" (at 44 132 0) (effects (font (size 1.8 1.8)) (justify left bottom)) (uuid "64f3db33-b7b1-42ab-b8da-67bb6311b9de"))
+(text ".tran 50n 60u" (at 44 142 0) (effects (font (size 1.8 1.8)) (justify left bottom)) (uuid "927e856a-66b1-4c43-ac14-81e96516a089"))(sheet_instances (path "/" (page "1"))))
